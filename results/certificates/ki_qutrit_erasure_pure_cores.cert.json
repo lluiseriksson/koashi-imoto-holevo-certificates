@@ -1,0 +1,114 @@
+{
+  "schema": "KOASHI-IMOTO-CERT-1.0",
+  "mode": "ki_block_tensor_criterion_exact",
+  "name": "mode2_qutrit_erasure_pure_cores",
+  "dim_W": 3,
+  "priors": [
+    "1/2",
+    "1/2"
+  ],
+  "signal_states": [
+    [
+      [
+        "1/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "1/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "9/50",
+        "6/25"
+      ],
+      [
+        "0",
+        "6/25",
+        "8/25"
+      ]
+    ]
+  ],
+  "sector_core_dims": [
+    1,
+    2
+  ],
+  "sector_redundant_dims": [
+    1,
+    1
+  ],
+  "sector_probs": [
+    [
+      "1/2",
+      "1/2"
+    ],
+    [
+      "1/2",
+      "1/2"
+    ]
+  ],
+  "core_states": [
+    [
+      [
+        [
+          "1"
+        ]
+      ],
+      [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          "1"
+        ]
+      ],
+      [
+        [
+          "9/25",
+          "12/25"
+        ],
+        [
+          "12/25",
+          "16/25"
+        ]
+      ]
+    ]
+  ],
+  "redundant_states": [
+    [
+      [
+        "1"
+      ]
+    ],
+    [
+      [
+        "1"
+      ]
+    ]
+  ],
+  "claimed_criterion": "holevo_achievable_all_cores_pure",
+  "claimed_core_linear_mix": "0"
+}

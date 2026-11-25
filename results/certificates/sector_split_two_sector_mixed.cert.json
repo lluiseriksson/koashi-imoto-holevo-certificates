@@ -1,0 +1,28 @@
+{
+  "schema": "KOASHI-IMOTO-CERT-1.0",
+  "mode": "sector_splitting_and_partial_additivity_exact",
+  "name": "mode4_two_sector_mixed_excess",
+  "sector_weights_q": [
+    "1/4",
+    "3/4"
+  ],
+  "sector_F": [
+    "3/5",
+    "2/5"
+  ],
+  "sector_chi": [
+    "3/5",
+    "3/10"
+  ],
+  "I_X_J": "1/5",
+  "H_J_given_X": "3/10",
+  "r_mix": "1/5",
+  "claimed_total_F": "13/20",
+  "claimed_total_chi": "23/40",
+  "claimed_visible_excess": "3/40",
+  "claimed_blind_excess": "1/2",
+  "prod_chi1": "3/5",
+  "prod_F1": "3/5",
+  "prod_F2": "2/5",
+  "prod_F12": "1"
+}

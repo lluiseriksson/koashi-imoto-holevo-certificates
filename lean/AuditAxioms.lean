@@ -1,0 +1,20 @@
+import KoashiImotoHolevo
+
+#print axioms KoashiImotoHolevo.bloch_purity_pure_iff_unit_norm
+#print axioms KoashiImotoHolevo.bloch_purity_strict_mixed_defect
+#print axioms KoashiImotoHolevo.bloch_cross_antisymm
+#print axioms KoashiImotoHolevo.bloch_cross_self_zero
+#print axioms KoashiImotoHolevo.bloch_collinear_commute
+#print axioms KoashiImotoHolevo.lagrange_cross_dot_identity
+#print axioms KoashiImotoHolevo.bloch_chord_convex_purity_drop
+#print axioms KoashiImotoHolevo.qubit_2x2_trace_idempotent_rank1
+#print axioms KoashiImotoHolevo.qubit_2x2_commutator_zero_iff_collin
+#print axioms KoashiImotoHolevo.ki_kronecker_trace_multiplicative
+#print axioms KoashiImotoHolevo.ki_kronecker_purity_multiplicative
+#print axioms KoashiImotoHolevo.holevo_visible_sandwich_equality
+#print axioms KoashiImotoHolevo.blind_vs_visible_gap_decomposition
+#print axioms KoashiImotoHolevo.decomposition_cost_identity_excess
+#print axioms KoashiImotoHolevo.partial_additivity_pure_core_exact
+#print axioms KoashiImotoHolevo.sector_splitting_excess_list
+#print axioms KoashiImotoHolevo.sector_excess_zero_iff_all_cores_zero
+#print axioms KoashiImotoHolevo.caratheodory_pure_atom_bound_pos

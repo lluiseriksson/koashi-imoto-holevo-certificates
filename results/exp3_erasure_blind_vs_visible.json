@@ -1,0 +1,86 @@
+{
+  "experiment": "exp3_erasure_blind_vs_visible",
+  "rows": [
+    {
+      "erasure_e_exact": "0",
+      "erasure_e": 0.0,
+      "holevo_chi": 0.721928,
+      "visible_Rcr": 0.721928,
+      "blind_Rblind": 0.721928,
+      "blind_gap": 0.0,
+      "visible_gap": 0.0
+    },
+    {
+      "erasure_e_exact": "1/8",
+      "erasure_e": 0.125,
+      "holevo_chi": 0.631687,
+      "visible_Rcr": 0.631687,
+      "blind_Rblind": 1.175252,
+      "blind_gap": 0.543564,
+      "visible_gap": 0.0
+    },
+    {
+      "erasure_e_exact": "1/4",
+      "erasure_e": 0.25,
+      "holevo_chi": 0.541446,
+      "visible_Rcr": 0.541446,
+      "blind_Rblind": 1.352724,
+      "blind_gap": 0.811278,
+      "visible_gap": 0.0
+    },
+    {
+      "erasure_e_exact": "3/8",
+      "erasure_e": 0.375,
+      "holevo_chi": 0.451205,
+      "visible_Rcr": 0.451205,
+      "blind_Rblind": 1.405639,
+      "blind_gap": 0.954434,
+      "visible_gap": 0.0
+    },
+    {
+      "erasure_e_exact": "1/2",
+      "erasure_e": 0.5,
+      "holevo_chi": 0.360964,
+      "visible_Rcr": 0.360964,
+      "blind_Rblind": 1.360964,
+      "blind_gap": 1.0,
+      "visible_gap": 0.0
+    },
+    {
+      "erasure_e_exact": "5/8",
+      "erasure_e": 0.625,
+      "holevo_chi": 0.270723,
+      "visible_Rcr": 0.270723,
+      "blind_Rblind": 1.225157,
+      "blind_gap": 0.954434,
+      "visible_gap": 0.0
+    },
+    {
+      "erasure_e_exact": "3/4",
+      "erasure_e": 0.75,
+      "holevo_chi": 0.180482,
+      "visible_Rcr": 0.180482,
+      "blind_Rblind": 0.99176,
+      "blind_gap": 0.811278,
+      "visible_gap": 0.0
+    },
+    {
+      "erasure_e_exact": "7/8",
+      "erasure_e": 0.875,
+      "holevo_chi": 0.090241,
+      "visible_Rcr": 0.090241,
+      "blind_Rblind": 0.633805,
+      "blind_gap": 0.543564,
+      "visible_gap": 0.0
+    },
+    {
+      "erasure_e_exact": "1",
+      "erasure_e": 1.0,
+      "holevo_chi": 0.0,
+      "visible_Rcr": 0.0,
+      "blind_Rblind": 0.0,
+      "blind_gap": 0.0,
+      "visible_gap": 0.0
+    }
+  ]
+}

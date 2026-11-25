@@ -1,0 +1,30 @@
+{
+  "schema": "KOASHI-IMOTO-CERT-1.0",
+  "mode": "qubit_bloch_dichotomy_exact",
+  "name": "mode1_qubit_trine_mixed_3signal",
+  "priors": [
+    "1/3",
+    "1/3",
+    "1/3"
+  ],
+  "bloch_vectors": [
+    [
+      "0",
+      "0",
+      "4/5"
+    ],
+    [
+      "3/5",
+      "0",
+      "-2/5"
+    ],
+    [
+      "-3/5",
+      "0",
+      "-2/5"
+    ]
+  ],
+  "claimed_regime": "strict_gap_mixed_noncommuting",
+  "claimed_linear_mix_defect": "11/50",
+  "claimed_max_commutator_sq": "144/625"
+}

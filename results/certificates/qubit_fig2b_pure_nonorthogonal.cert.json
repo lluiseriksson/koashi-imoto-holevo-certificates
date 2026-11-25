@@ -1,0 +1,24 @@
+{
+  "schema": "KOASHI-IMOTO-CERT-1.0",
+  "mode": "qubit_bloch_dichotomy_exact",
+  "name": "mode1_qubit_fig2b_pure_nonorthogonal",
+  "priors": [
+    "1/2",
+    "1/2"
+  ],
+  "bloch_vectors": [
+    [
+      "3/5",
+      "0",
+      "4/5"
+    ],
+    [
+      "-3/5",
+      "0",
+      "4/5"
+    ]
+  ],
+  "claimed_regime": "holevo_achievable_pure",
+  "claimed_linear_mix_defect": "0",
+  "claimed_max_commutator_sq": "576/625"
+}

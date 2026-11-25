@@ -1,0 +1,29 @@
+{
+  "experiment": "exp4_caratheodory_scaling",
+  "rows": [
+    {
+      "dim_N": 1,
+      "dim_W": 2,
+      "caratheodory_bound": 9,
+      "core_r_lin": "0"
+    },
+    {
+      "dim_N": 2,
+      "dim_W": 4,
+      "caratheodory_bound": 33,
+      "core_r_lin": "0"
+    },
+    {
+      "dim_N": 3,
+      "dim_W": 6,
+      "caratheodory_bound": 73,
+      "core_r_lin": "0"
+    },
+    {
+      "dim_N": 4,
+      "dim_W": 8,
+      "caratheodory_bound": 129,
+      "core_r_lin": "0"
+    }
+  ]
+}

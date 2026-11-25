@@ -1,0 +1,218 @@
+{
+  "experiment": "exp1_certified_atlas",
+  "count": 16,
+  "rows": [
+    {
+      "file": "qubit_fig2a_mixed_commuting.cert.json",
+      "mode": "qubit_bloch_dichotomy_exact",
+      "verify_ms": 0.1099,
+      "summary": {
+        "verified": true,
+        "mode": "qubit_bloch_dichotomy_exact",
+        "num_signals": 2,
+        "regime": "holevo_achievable_commuting",
+        "r_lin": "51/200",
+        "max_comm_sq": "0"
+      }
+    },
+    {
+      "file": "qubit_fig2b_pure_nonorthogonal.cert.json",
+      "mode": "qubit_bloch_dichotomy_exact",
+      "verify_ms": 0.0969,
+      "summary": {
+        "verified": true,
+        "mode": "qubit_bloch_dichotomy_exact",
+        "num_signals": 2,
+        "regime": "holevo_achievable_pure",
+        "r_lin": "0",
+        "max_comm_sq": "576/625"
+      }
+    },
+    {
+      "file": "qubit_fig2c_mixed_noncommuting.cert.json",
+      "mode": "qubit_bloch_dichotomy_exact",
+      "verify_ms": 0.0771,
+      "summary": {
+        "verified": true,
+        "mode": "qubit_bloch_dichotomy_exact",
+        "num_signals": 2,
+        "regime": "strict_gap_mixed_noncommuting",
+        "r_lin": "1/10",
+        "max_comm_sq": "256/625"
+      }
+    },
+    {
+      "file": "qubit_trine_mixed_3signal.cert.json",
+      "mode": "qubit_bloch_dichotomy_exact",
+      "verify_ms": 0.1384,
+      "summary": {
+        "verified": true,
+        "mode": "qubit_bloch_dichotomy_exact",
+        "num_signals": 3,
+        "regime": "strict_gap_mixed_noncommuting",
+        "r_lin": "11/50",
+        "max_comm_sq": "144/625"
+      }
+    },
+    {
+      "file": "ki_qutrit_erasure_pure_cores.cert.json",
+      "mode": "ki_block_tensor_criterion_exact",
+      "verify_ms": 0.3132,
+      "summary": {
+        "verified": true,
+        "mode": "ki_block_tensor_criterion_exact",
+        "dim_W": 3,
+        "num_sectors": 2,
+        "criterion": "holevo_achievable_all_cores_pure",
+        "core_r_lin": "0"
+      }
+    },
+    {
+      "file": "ki_4d_pure_core_mixed_redundant.cert.json",
+      "mode": "ki_block_tensor_criterion_exact",
+      "verify_ms": 0.3061,
+      "summary": {
+        "verified": true,
+        "mode": "ki_block_tensor_criterion_exact",
+        "dim_W": 4,
+        "num_sectors": 1,
+        "criterion": "holevo_achievable_all_cores_pure",
+        "core_r_lin": "0"
+      }
+    },
+    {
+      "file": "ki_3d_mixed_noncomm_core_gap.cert.json",
+      "mode": "ki_block_tensor_criterion_exact",
+      "verify_ms": 0.3179,
+      "summary": {
+        "verified": true,
+        "mode": "ki_block_tensor_criterion_exact",
+        "dim_W": 3,
+        "num_sectors": 2,
+        "criterion": "strict_gap_mixed_core",
+        "core_r_lin": "1/15"
+      }
+    },
+    {
+      "file": "ki_6d_two_sector_mixed_core_gap.cert.json",
+      "mode": "ki_block_tensor_criterion_exact",
+      "verify_ms": 0.5762,
+      "summary": {
+        "verified": true,
+        "mode": "ki_block_tensor_criterion_exact",
+        "dim_W": 6,
+        "num_sectors": 2,
+        "criterion": "strict_gap_mixed_core",
+        "core_r_lin": "3/40"
+      }
+    },
+    {
+      "file": "pure_atom_chord_endpoints_U2.cert.json",
+      "mode": "pure_atom_caratheodory_decomp_exact",
+      "verify_ms": 0.3118,
+      "summary": {
+        "verified": true,
+        "mode": "pure_atom_caratheodory_decomp_exact",
+        "dim_W": 2,
+        "num_signals": 2,
+        "num_flags_U": 2,
+        "caratheodory_bound": 9
+      }
+    },
+    {
+      "file": "pure_atom_qutrit_erasure_U2.cert.json",
+      "mode": "pure_atom_caratheodory_decomp_exact",
+      "verify_ms": 0.406,
+      "summary": {
+        "verified": true,
+        "mode": "pure_atom_caratheodory_decomp_exact",
+        "dim_W": 3,
+        "num_signals": 2,
+        "num_flags_U": 2,
+        "caratheodory_bound": 19
+      }
+    },
+    {
+      "file": "pure_atom_4d_redundant_U2.cert.json",
+      "mode": "pure_atom_caratheodory_decomp_exact",
+      "verify_ms": 0.6545,
+      "summary": {
+        "verified": true,
+        "mode": "pure_atom_caratheodory_decomp_exact",
+        "dim_W": 4,
+        "num_signals": 2,
+        "num_flags_U": 2,
+        "caratheodory_bound": 33
+      }
+    },
+    {
+      "file": "pure_atom_3signal_qubit_U3.cert.json",
+      "mode": "pure_atom_caratheodory_decomp_exact",
+      "verify_ms": 0.3402,
+      "summary": {
+        "verified": true,
+        "mode": "pure_atom_caratheodory_decomp_exact",
+        "dim_W": 2,
+        "num_signals": 3,
+        "num_flags_U": 3,
+        "caratheodory_bound": 13
+      }
+    },
+    {
+      "file": "sector_split_erasure_blind_sep.cert.json",
+      "mode": "sector_splitting_and_partial_additivity_exact",
+      "verify_ms": 0.0754,
+      "summary": {
+        "verified": true,
+        "mode": "sector_splitting_and_partial_additivity_exact",
+        "num_sectors": 2,
+        "total_F": "3/8",
+        "visible_excess": "0",
+        "blind_excess": "1",
+        "exact_additive": true
+      }
+    },
+    {
+      "file": "sector_split_two_sector_mixed.cert.json",
+      "mode": "sector_splitting_and_partial_additivity_exact",
+      "verify_ms": 0.078,
+      "summary": {
+        "verified": true,
+        "mode": "sector_splitting_and_partial_additivity_exact",
+        "num_sectors": 2,
+        "total_F": "13/20",
+        "visible_excess": "3/40",
+        "blind_excess": "1/2",
+        "exact_additive": true
+      }
+    },
+    {
+      "file": "sector_split_three_sector_nonadd.cert.json",
+      "mode": "sector_splitting_and_partial_additivity_exact",
+      "verify_ms": 0.0818,
+      "summary": {
+        "verified": true,
+        "mode": "sector_splitting_and_partial_additivity_exact",
+        "num_sectors": 3,
+        "total_F": "41/50",
+        "visible_excess": "9/50",
+        "blind_excess": "1/2",
+        "exact_additive": false
+      }
+    },
+    {
+      "file": "sector_split_four_sector_pure_cores.cert.json",
+      "mode": "sector_splitting_and_partial_additivity_exact",
+      "verify_ms": 0.0908,
+      "summary": {
+        "verified": true,
+        "mode": "sector_splitting_and_partial_additivity_exact",
+        "num_sectors": 4,
+        "total_F": "17/16",
+        "visible_excess": "0",
+        "blind_excess": "3/2",
+        "exact_additive": true
+      }
+    }
+  ]
+}

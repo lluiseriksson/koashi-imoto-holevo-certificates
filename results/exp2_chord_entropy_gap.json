@@ -1,0 +1,82 @@
+{
+  "experiment": "exp2_chord_entropy_gap",
+  "rows": [
+    {
+      "t0_exact": "0",
+      "t0": 0.0,
+      "exact_r_lin": "0",
+      "r_lin": 0.0,
+      "exact_comm_sq": "576/625",
+      "holevo_chi": 0.468996,
+      "endpoint_C": 1.0,
+      "schumacher_S": 0.468996,
+      "best_upper_gap": 0.0
+    },
+    {
+      "t0_exact": "1/12",
+      "t0": 0.08333,
+      "exact_r_lin": "11/200",
+      "r_lin": 0.055,
+      "exact_comm_sq": "16/25",
+      "holevo_chi": 0.283197,
+      "endpoint_C": 0.586183,
+      "schumacher_S": 0.468996,
+      "best_upper_gap": 0.185798
+    },
+    {
+      "t0_exact": "1/6",
+      "t0": 0.16667,
+      "exact_r_lin": "1/10",
+      "r_lin": 0.1,
+      "exact_comm_sq": "256/625",
+      "holevo_chi": 0.170878,
+      "endpoint_C": 0.349978,
+      "schumacher_S": 0.468996,
+      "best_upper_gap": 0.179099
+    },
+    {
+      "t0_exact": "1/4",
+      "t0": 0.25,
+      "exact_r_lin": "27/200",
+      "r_lin": 0.135,
+      "exact_comm_sq": "144/625",
+      "holevo_chi": 0.092709,
+      "endpoint_C": 0.188722,
+      "schumacher_S": 0.468996,
+      "best_upper_gap": 0.096012
+    },
+    {
+      "t0_exact": "1/3",
+      "t0": 0.33333,
+      "exact_r_lin": "4/25",
+      "r_lin": 0.16,
+      "exact_comm_sq": "64/625",
+      "holevo_chi": 0.040286,
+      "endpoint_C": 0.081704,
+      "schumacher_S": 0.468996,
+      "best_upper_gap": 0.041419
+    },
+    {
+      "t0_exact": "5/12",
+      "t0": 0.41667,
+      "exact_r_lin": "7/40",
+      "r_lin": 0.175,
+      "exact_comm_sq": "16/625",
+      "holevo_chi": 0.009946,
+      "endpoint_C": 0.020131,
+      "schumacher_S": 0.468996,
+      "best_upper_gap": 0.010185
+    },
+    {
+      "t0_exact": "1/2",
+      "t0": 0.5,
+      "exact_r_lin": "9/50",
+      "r_lin": 0.18,
+      "exact_comm_sq": "0",
+      "holevo_chi": 0.0,
+      "endpoint_C": 0.0,
+      "schumacher_S": 0.468996,
+      "best_upper_gap": 0.0
+    }
+  ]
+}
